@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "image": "chair.jpg",
+      "title": "Swivel Chair Updated",
+      "amount": 95000,
+      "amounts": 100000,
+      "percentage": 12,
+      "rate": 40,
+      "rating": 40,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "image": "table.jpg",
+      "title": "Modern Office Table Desk Computer",
+      "amount": 100000,
+      "amounts": 150000,
+      "percentage": 10,
+      "rate": 80,
+      "rating": 80
+    },
+    {
+      "image": "lappy.jpg",
+      "title": "HP Laptop 15 Intel Core I7 UPDATED",
+      "amount": 1500,
+      "amounts": 4000,
+      "percentage": 5,
+      "rate": 20,
+      "rating": 20,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "image": "headphone.jpg",
+      "title": "Bluetooth Wireless Headphone",
+      "amount": 1000,
+      "amounts": 1200,
+      "percentage": 12,
+      "rate": 50,
+      "rating": 50
+    },
+    {
+      "id": 5,
+      "image": "chair-two.jpg",
+      "title": "Stylish Racing Style Chair",
+      "amount": 3000,
+      "amounts": 4000,
+      "percentage": 12,
+      "rate": 90,
+      "rating": 90
+    },
+    {
+      "id": 6,
+      "image": "chair-four.jpg",
+      "title": "Walnew Racing Style Chair",
+      "amount": 4000,
+      "amounts": 5000,
+      "percentage": 6,
+      "rate": 30,
+      "rating": 30
+    },
+    {
+      "id": 7,
+      "image": "chair33.jpg",
+      "title": "New Chair",
+      "amount": 95000,
+      "amounts": 100000,
+      "percentage": 12,
+      "rate": 40,
+      "rating": 40
+    },
+    {
+      "id": 8,
+      "image": "PS5.JPG",
+      "title": "PS5",
+      "amount": 1000,
+      "amounts": 1200,
+      "percentage": 12,
+      "rate": 50,
+      "rating": 50
+    }
+  ]
+}

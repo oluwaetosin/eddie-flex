@@ -1,10 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { IProduct } from './models/product.interface';
+import { ProductsService } from './products.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  title = 'Ecommerce-page';
+export class AppComponent implements OnInit {
+  constructor(private prodService: ProductsService) {}
+
+  ngOnInit(): void {
+    this.prodService.getProducts().subscribe((response) => {
+      this.products = response;
+    });
+  }
+
+  products: IProduct[] = [];
 }
