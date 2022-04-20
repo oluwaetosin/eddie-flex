@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col" *ngFor="let product of products">
+      <app-mycard
+        image="./assets/{{ product.image }}"
+        title="{{ product.title }}"
+        amount="${{ product.amount }}"
+        amounts="${{ product.amounts }}"
+        percentage="{{ product.percentage }}%"
+        rate="width: {{ product.rate }}%"
+        rating="{{ product.rating }}%"
+      >
+      </app-mycard>
+    </div>
+  </div>
+</div>

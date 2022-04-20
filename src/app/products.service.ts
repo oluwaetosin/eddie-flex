@@ -7,9 +7,17 @@ import { IProduct } from './models/product.interface';
   providedIn: 'root',
 })
 export class ProductsService {
-  constructor(private httpClient: HttpClient) {}
+  API_URL: string = 'http://localhost:3000/products';
+
+  constructor(private httpService: HttpClient) {}
 
   getProducts(): Observable<any> {
-    return this.httpClient.get('http://localhost:3000/products');
+    return this.httpService.get(this.API_URL);
   }
+
+  getProductsById() {}
+
+  addProduct() {}
+
+  updateProduct() {}
 }
